@@ -1,0 +1,14 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "target": "es2015",  
+    /* Note -- need to set module to "es2015" to use import export syntax credit to this stackoverflow user https://stackoverflow.com/questions/43472778/typescript-exports-is-not-defined */
+    "module": "es2015",
+    "rootDir": "./src",  
+    "outDir": "./dist",        /* Specify what module code is generated. */
+    "forceConsistentCasingInFileNames": true,     /* Ensure that casing is correct in imports. */
+    "strict": true,                               /* Enable all strict type-checking options. */
+    "skipLibCheck": true                          /* Skip type checking all .d.ts files. */
+  }
+}
